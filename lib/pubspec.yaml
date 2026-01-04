@@ -1,0 +1,16 @@
+name: swingers_app
+description: Exclusive Club App - Membresía 19.99 anual.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  in_app_purchase: ^3.2.0 # Esta es la pieza que permite cobrar los 19.99€
+  flutter_windowmanager: ^0.2.0 # Bloquea capturas de pantalla para privacidad
+
+flutter:
+  uses-material-design: true
