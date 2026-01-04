@@ -9,9 +9,10 @@ class MainNavigation extends StatefulWidget {
 
 class _MainNavigationState extends State<MainNavigation> {
   int _selectedIndex = 0;
-  final List<Widget> _pages = [
-    const LoungeScreen(), // El Muro
-    const ProfileScreen(), // El Perfil
+final List<Widget> _pages = [
+    const LoungeScreen(), // Pantalla 1
+    const ChatScreen(),   // Pantalla 2 (La que acabas de crear)
+    const ProfileScreen(), // Pantalla 3
   ];
 
   @override
