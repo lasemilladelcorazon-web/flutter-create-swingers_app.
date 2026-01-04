@@ -1,4 +1,6 @@
-
+import 'package:swingers_app/lounge_screen.dart';
+import 'package:swingers_app/chat_screen.dart';
+import 'package:swingers_app/profile_screen.dart';
 // Esta es la pantalla que verán después de pagar
 class MainNavigation extends StatefulWidget {
   const MainNavigation({super.key});
