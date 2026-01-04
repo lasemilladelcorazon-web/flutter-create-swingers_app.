@@ -27,9 +27,7 @@ final List<Widget> _pages = [
         onTap: (index) => setState(() => _selectedIndex = index),
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.explore), label: "Lounge"),
+          BottomNavigationBarItem(icon: Icon(Icons.chat_bubble), label: "Mensajes"), // <--- AÑADE ESTO
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Perfil"),
         ],
       ),
-    );
-  }
-}
